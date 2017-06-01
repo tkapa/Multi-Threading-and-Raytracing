@@ -1,0 +1,6 @@
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\bin\Debug\raytracer.exe.config
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\bin\Debug\raytracer.exe
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\bin\Debug\raytracer.pdb
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\obj\Debug\raytracer.csprojResolveAssemblyReference.cache
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\obj\Debug\raytracer.exe
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\obj\Debug\raytracer.pdb

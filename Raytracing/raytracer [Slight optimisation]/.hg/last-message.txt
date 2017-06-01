@@ -1,0 +1,3 @@
+Changed timing method from timegettime to queryperformancecounter.
+Added per pixel timings and visualisation.
+Updated kf.

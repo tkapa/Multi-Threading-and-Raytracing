@@ -1,0 +1,366 @@
+﻿  camera.cpp
+  light.cpp
+  luascript.cpp
+  main.cpp
+camera.cpp(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(382): warning C4458: declaration of 'v' hides class member (compiling source file camera.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(55): note: see declaration of 'kf::Vector3T<float>::<unnamed-tag>::<unnamed-tag>::v' (compiling source file camera.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(383): note: while compiling class template member function 'kf::Vector3T<float> kf::Vector3T<float>::cross(const kf::Vector3T<float> &) const' (compiling source file camera.cpp)
+  camera.cpp(34): note: see reference to function template instantiation 'kf::Vector3T<float> kf::Vector3T<float>::cross(const kf::Vector3T<float> &) const' being compiled
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\Camera.h(11): note: see reference to class template instantiation 'kf::Vector3T<float>' being compiled (compiling source file camera.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(148): warning C4458: declaration of 'v' hides class member (compiling source file camera.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(55): note: see declaration of 'kf::Vector3T<float>::<unnamed-tag>::<unnamed-tag>::v' (compiling source file camera.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(149): note: while compiling class template member function 'kf::Vector3T<float> kf::Vector3T<float>::operator =(const kf::Vector3T<float> &)' (compiling source file camera.cpp)
+  camera.cpp(33): note: see reference to function template instantiation 'kf::Vector3T<float> kf::Vector3T<float>::operator =(const kf::Vector3T<float> &)' being compiled
+  material.cpp
+  renderable.cpp
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(49739): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(49739): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(372): warning C4458: declaration of 'v' hides class member (compiling source file renderable.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(55): note: see declaration of 'kf::Vector3T<float>::<unnamed-tag>::<unnamed-tag>::v' (compiling source file renderable.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(373): note: while compiling class template member function 'float kf::Vector3T<float>::dot(const kf::Vector3T<float> &) const' (compiling source file renderable.cpp)
+  renderable.cpp(30): note: see reference to function template instantiation 'float kf::Vector3T<float>::dot(const kf::Vector3T<float> &) const' being compiled
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\material.h(12): note: see reference to class template instantiation 'kf::Vector3T<float>' being compiled (compiling source file renderable.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(148): warning C4458: declaration of 'v' hides class member (compiling source file renderable.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(55): note: see declaration of 'kf::Vector3T<float>::<unnamed-tag>::<unnamed-tag>::v' (compiling source file renderable.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(149): note: while compiling class template member function 'kf::Vector3T<float> kf::Vector3T<float>::operator =(const kf::Vector3T<float> &)' (compiling source file renderable.cpp)
+  renderable.cpp(15): note: see reference to function template instantiation 'kf::Vector3T<float> kf::Vector3T<float>::operator =(const kf::Vector3T<float> &)' being compiled
+  scene.cpp
+  Threads.cpp
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_time.h(55): warning C4244: 'return': conversion from 'double' to '__int64', possible loss of data (compiling source file main.cpp)
+luascript.cpp(18): warning C4244: '=': conversion from 'lua_Integer' to 'int', possible loss of data
+luascript.cpp(28): warning C4244: '=': conversion from 'lua_Integer' to 'int', possible loss of data
+luascript.cpp(29): warning C4244: '=': conversion from 'lua_Integer' to 'int', possible loss of data
+luascript.cpp(266): warning C4244: '=': conversion from 'lua_Integer' to 'int', possible loss of data
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13924): warning C4456: declaration of 'ns' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13918): note: see declaration of 'ns' (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13813): note: while compiling class template member function 'unsigned int cimg_library::CImg<float>::_cimg_math_parser::compile(char *const ,char *const )' (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13770): note: see reference to function template instantiation 'unsigned int cimg_library::CImg<float>::_cimg_math_parser::compile(char *const ,char *const )' being compiled (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(16066): note: see reference to class template instantiation 'cimg_library::CImg<float>::_cimg_math_parser' being compiled (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(16064): note: while compiling class template member function 'double cimg_library::CImg<float>::eval(const char *const ,const double,const double,const double,const double) const' (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(50036): note: see reference to function template instantiation 'double cimg_library::CImg<float>::eval(const char *const ,const double,const double,const double,const double) const' being compiled (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(50035): note: see reference to class template instantiation 'cimg_library::CImg<float>' being compiled (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14145): warning C4458: declaration of 'opcode' hides class member (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13683): note: see declaration of 'cimg_library::CImg<float>::_cimg_math_parser::opcode' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14160): warning C4458: declaration of 'opcode' hides class member (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13683): note: see declaration of 'cimg_library::CImg<float>::_cimg_math_parser::opcode' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14188): warning C4456: declaration of 'sep' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13829): note: see declaration of 'sep' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14188): warning C4456: declaration of 'end' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13829): note: see declaration of 'end' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14188): warning C4456: declaration of 'val' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13829): note: see declaration of 'val' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14197): warning C4456: declaration of 'nb' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13830): note: see declaration of 'nb' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14319): warning C4319: '~': zero extending 'unsigned long' to 'double' of greater size (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14318): note: while compiling class template member function 'double cimg_library::CImg<float>::_cimg_math_parser::mp_bitwise_not(cimg_library::CImg<float>::_cimg_math_parser &)' (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14049): note: see reference to function template instantiation 'double cimg_library::CImg<float>::_cimg_math_parser::mp_bitwise_not(cimg_library::CImg<float>::_cimg_math_parser &)' being compiled (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13924): warning C4456: declaration of 'ns' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13918): note: see declaration of 'ns' (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13813): note: while compiling class template member function 'unsigned int cimg_library::CImg<float>::_cimg_math_parser::compile(char *const ,char *const )' (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13770): note: see reference to function template instantiation 'unsigned int cimg_library::CImg<float>::_cimg_math_parser::compile(char *const ,char *const )' being compiled (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(16066): note: see reference to class template instantiation 'cimg_library::CImg<float>::_cimg_math_parser' being compiled (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(16064): note: while compiling class template member function 'double cimg_library::CImg<float>::eval(const char *const ,const double,const double,const double,const double) const' (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(50036): note: see reference to function template instantiation 'double cimg_library::CImg<float>::eval(const char *const ,const double,const double,const double,const double) const' being compiled (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(50035): note: see reference to class template instantiation 'cimg_library::CImg<float>' being compiled (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14145): warning C4458: declaration of 'opcode' hides class member (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13683): note: see declaration of 'cimg_library::CImg<float>::_cimg_math_parser::opcode' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14160): warning C4458: declaration of 'opcode' hides class member (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13683): note: see declaration of 'cimg_library::CImg<float>::_cimg_math_parser::opcode' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14188): warning C4456: declaration of 'sep' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13829): note: see declaration of 'sep' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14188): warning C4456: declaration of 'end' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13829): note: see declaration of 'end' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14188): warning C4456: declaration of 'val' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13829): note: see declaration of 'val' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14197): warning C4456: declaration of 'nb' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13830): note: see declaration of 'nb' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20816): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20802): note: see declaration of 'poff' (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20534): note: while compiling class template member function 'cimg_library::CImg<unsigned int> cimg_library::CImg<unsigned int>::get_resize(const int,const int,const int,const int,const int,const unsigned int,const float,const float,const float,const float) const' (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20525): note: see reference to function template instantiation 'cimg_library::CImg<unsigned int> cimg_library::CImg<unsigned int>::get_resize(const int,const int,const int,const int,const int,const unsigned int,const float,const float,const float,const float) const' being compiled (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13686): note: see reference to class template instantiation 'cimg_library::CImg<unsigned int>' being compiled (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20817): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20803): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20851): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20837): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20852): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20838): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20889): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20875): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20890): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20876): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20928): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20914): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20929): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20915): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21041): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21027): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21042): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21028): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21082): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21068): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21083): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21069): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21126): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21112): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21127): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21113): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21171): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21157): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21172): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21158): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21226): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21211): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21227): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21212): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21274): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21259): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21275): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21260): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21325): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21310): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21326): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21311): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21377): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21362): note: see declaration of 'poff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21378): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21363): note: see declaration of 'pfoff' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14319): warning C4319: '~': zero extending 'unsigned long' to 'double' of greater size (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14318): note: while compiling class template member function 'double cimg_library::CImg<float>::_cimg_math_parser::mp_bitwise_not(cimg_library::CImg<float>::_cimg_math_parser &)' (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14049): note: see reference to function template instantiation 'double cimg_library::CImg<float>::_cimg_math_parser::mp_bitwise_not(cimg_library::CImg<float>::_cimg_math_parser &)' being compiled (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20816): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20802): note: see declaration of 'poff' (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20534): note: while compiling class template member function 'cimg_library::CImg<unsigned int> cimg_library::CImg<unsigned int>::get_resize(const int,const int,const int,const int,const int,const unsigned int,const float,const float,const float,const float) const' (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20525): note: see reference to function template instantiation 'cimg_library::CImg<unsigned int> cimg_library::CImg<unsigned int>::get_resize(const int,const int,const int,const int,const int,const unsigned int,const float,const float,const float,const float) const' being compiled (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13686): note: see reference to class template instantiation 'cimg_library::CImg<unsigned int>' being compiled (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20817): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20803): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20851): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20837): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20852): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20838): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20889): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20875): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20890): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20876): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20928): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20914): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20929): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20915): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21041): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21027): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21042): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21028): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21082): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21068): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21083): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21069): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21126): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21112): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21127): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21113): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21171): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21157): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21172): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21158): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21226): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21211): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21227): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21212): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21274): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21259): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21275): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21260): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21325): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21310): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21326): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21311): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21377): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21362): note: see declaration of 'poff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21378): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21363): note: see declaration of 'pfoff' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34678): warning C4456: declaration of 'c' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34668): note: see declaration of 'c' (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34602): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::_draw_text<tc1,tc2,T>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const cimg_library::CImgList<T> &,const bool)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char,
+              T=unsigned char
+          ] (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34602): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::_draw_text<tc1,tc2,T>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const cimg_library::CImgList<T> &,const bool)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char,
+              T=unsigned char
+          ] (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(49879): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::draw_text<unsigned char,unsigned char>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const unsigned int,...)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char
+          ] (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(49879): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::draw_text<unsigned char,unsigned char>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const unsigned int,...)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char
+          ] (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(50015): note: see reference to function template instantiation 'int cimg_library::cimg::dialog<unsigned char>(const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const cimg_library::CImg<unsigned char> &,const bool)' being compiled (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34682): warning C4456: declaration of 'c' hides previous local declaration (compiling source file main.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34668): note: see declaration of 'c' (compiling source file main.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34678): warning C4456: declaration of 'c' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34668): note: see declaration of 'c' (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34602): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::_draw_text<tc1,tc2,T>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const cimg_library::CImgList<T> &,const bool)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char,
+              T=unsigned char
+          ] (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34602): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::_draw_text<tc1,tc2,T>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const cimg_library::CImgList<T> &,const bool)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char,
+              T=unsigned char
+          ] (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(49879): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::draw_text<unsigned char,unsigned char>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const unsigned int,...)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char
+          ] (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(49879): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::draw_text<unsigned char,unsigned char>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const unsigned int,...)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char
+          ] (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(50015): note: see reference to function template instantiation 'int cimg_library::cimg::dialog<unsigned char>(const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const cimg_library::CImg<unsigned char> &,const bool)' being compiled (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34682): warning C4456: declaration of 'c' hides previous local declaration (compiling source file luascript.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34668): note: see declaration of 'c' (compiling source file luascript.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(49739): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(372): warning C4458: declaration of 'v' hides class member (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(55): note: see declaration of 'kf::Vector3T<float>::<unnamed-tag>::<unnamed-tag>::v' (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(373): note: while compiling class template member function 'float kf::Vector3T<float>::dot(const kf::Vector3T<float> &) const' (compiling source file scene.cpp)
+  scene.cpp(98): note: see reference to function template instantiation 'float kf::Vector3T<float>::dot(const kf::Vector3T<float> &) const' being compiled
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\material.h(12): note: see reference to class template instantiation 'kf::Vector3T<float>' being compiled (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(148): warning C4458: declaration of 'v' hides class member (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(55): note: see declaration of 'kf::Vector3T<float>::<unnamed-tag>::<unnamed-tag>::v' (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\kf/kf_vector3.h(149): note: while compiling class template member function 'kf::Vector3T<float> kf::Vector3T<float>::operator =(const kf::Vector3T<float> &)' (compiling source file scene.cpp)
+  scene.cpp(40): note: see reference to function template instantiation 'kf::Vector3T<float> kf::Vector3T<float>::operator =(const kf::Vector3T<float> &)' being compiled
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13924): warning C4456: declaration of 'ns' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13918): note: see declaration of 'ns' (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13813): note: while compiling class template member function 'unsigned int cimg_library::CImg<float>::_cimg_math_parser::compile(char *const ,char *const )' (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13770): note: see reference to function template instantiation 'unsigned int cimg_library::CImg<float>::_cimg_math_parser::compile(char *const ,char *const )' being compiled (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(16066): note: see reference to class template instantiation 'cimg_library::CImg<float>::_cimg_math_parser' being compiled (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(16064): note: while compiling class template member function 'double cimg_library::CImg<float>::eval(const char *const ,const double,const double,const double,const double) const' (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(50036): note: see reference to function template instantiation 'double cimg_library::CImg<float>::eval(const char *const ,const double,const double,const double,const double) const' being compiled (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(50035): note: see reference to class template instantiation 'cimg_library::CImg<float>' being compiled (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14145): warning C4458: declaration of 'opcode' hides class member (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13683): note: see declaration of 'cimg_library::CImg<float>::_cimg_math_parser::opcode' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14160): warning C4458: declaration of 'opcode' hides class member (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13683): note: see declaration of 'cimg_library::CImg<float>::_cimg_math_parser::opcode' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14188): warning C4456: declaration of 'sep' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13829): note: see declaration of 'sep' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14188): warning C4456: declaration of 'end' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13829): note: see declaration of 'end' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14188): warning C4456: declaration of 'val' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13829): note: see declaration of 'val' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14197): warning C4456: declaration of 'nb' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13830): note: see declaration of 'nb' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14319): warning C4319: '~': zero extending 'unsigned long' to 'double' of greater size (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14318): note: while compiling class template member function 'double cimg_library::CImg<float>::_cimg_math_parser::mp_bitwise_not(cimg_library::CImg<float>::_cimg_math_parser &)' (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(14049): note: see reference to function template instantiation 'double cimg_library::CImg<float>::_cimg_math_parser::mp_bitwise_not(cimg_library::CImg<float>::_cimg_math_parser &)' being compiled (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20816): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20802): note: see declaration of 'poff' (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20534): note: while compiling class template member function 'cimg_library::CImg<unsigned int> cimg_library::CImg<unsigned int>::get_resize(const int,const int,const int,const int,const int,const unsigned int,const float,const float,const float,const float) const' (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20525): note: see reference to function template instantiation 'cimg_library::CImg<unsigned int> cimg_library::CImg<unsigned int>::get_resize(const int,const int,const int,const int,const int,const unsigned int,const float,const float,const float,const float) const' being compiled (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(13686): note: see reference to class template instantiation 'cimg_library::CImg<unsigned int>' being compiled (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20817): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20803): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20851): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20837): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20852): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20838): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20889): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20875): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20890): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20876): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20928): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20914): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20929): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(20915): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21041): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21027): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21042): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21028): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21082): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21068): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21083): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21069): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21126): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21112): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21127): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21113): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21171): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21157): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21172): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21158): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21226): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21211): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21227): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21212): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21274): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21259): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21275): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21260): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21325): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21310): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21326): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21311): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21377): warning C4456: declaration of 'poff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21362): note: see declaration of 'poff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21378): warning C4456: declaration of 'pfoff' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(21363): note: see declaration of 'pfoff' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34678): warning C4456: declaration of 'c' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34668): note: see declaration of 'c' (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34602): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::_draw_text<tc1,tc2,T>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const cimg_library::CImgList<T> &,const bool)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char,
+              T=unsigned char
+          ] (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34602): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::_draw_text<tc1,tc2,T>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const cimg_library::CImgList<T> &,const bool)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char,
+              T=unsigned char
+          ] (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(49879): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::draw_text<unsigned char,unsigned char>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const unsigned int,...)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char
+          ] (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(49879): note: see reference to function template instantiation 'cimg_library::CImg<unsigned char> &cimg_library::CImg<unsigned char>::draw_text<unsigned char,unsigned char>(const int,const int,const char *const ,const tc1 *const ,const tc2 *const ,const float,const unsigned int,...)' being compiled
+          with
+          [
+              tc1=unsigned char,
+              tc2=unsigned char
+          ] (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(50015): note: see reference to function template instantiation 'int cimg_library::cimg::dialog<unsigned char>(const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const char *const ,const cimg_library::CImg<unsigned char> &,const bool)' being compiled (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34682): warning C4456: declaration of 'c' hides previous local declaration (compiling source file scene.cpp)
+  e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\CImg.h(34668): note: see declaration of 'c' (compiling source file scene.cpp)
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\main.cpp(219): warning C4715: '<lambda_270145d7c4a5cc928941200f51f04d52>::operator()': not all control paths return a value
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\main.cpp(105): warning C4715: '<lambda_26aa6a6ca41c5aca4a90860708d43a55>::operator()': not all control paths return a value
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\main.cpp(181): warning C4715: '<lambda_6f902bbe01e1e54b9ec035197bc128c3>::operator()': not all control paths return a value
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\main.cpp(143): warning C4715: '<lambda_7e90a726240a7775df332f980f0f158c>::operator()': not all control paths return a value
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\main.cpp(295): warning C4715: '<lambda_4dbb746e6b42ea6a7b649e4ff742799b>::operator()': not all control paths return a value
+e:\misc\raytracer 201670530\raytracer [slight optimisation]\raytracer\main.cpp(257): warning C4715: '<lambda_d7f3ce35cbec3d1fc31023b337d025f0>::operator()': not all control paths return a value
+  raytracer.vcxproj -> E:\Misc\raytracer 201670530\raytracer [Slight optimisation]\bin\raytracer64.exe

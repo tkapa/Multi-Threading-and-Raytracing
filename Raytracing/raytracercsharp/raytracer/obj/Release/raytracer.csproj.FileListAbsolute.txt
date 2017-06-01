@@ -1,0 +1,9 @@
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\bin\Release\raytracer.exe.config
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\bin\Release\raytracer.exe
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\bin\Release\raytracer.pdb
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\bin\Release\sfmlnet-graphics-2.dll
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\bin\Release\sfmlnet-system-2.dll
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\bin\Release\sfmlnet-window-2.dll
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\obj\Release\raytracer.exe
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\obj\Release\raytracer.pdb
+c:\users\gquincey\documents\visual studio 2015\Projects\raytracer\raytracer\obj\Release\raytracer.csprojResolveAssemblyReference.cache
